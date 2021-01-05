@@ -3,7 +3,7 @@
 Examples:
 - `lexicon create resource -f file.yaml`
 - ```
-  lexicon create resource -f - << 
+   cat <<EOF | lexicon create resource -f -
     name: foo
     labels:
      - alpha
